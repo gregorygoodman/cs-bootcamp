@@ -9,7 +9,7 @@ operation:
       uuid = str(uuid.uuid1())
 
   outputs:
-    - uuid: $(uuid)
+    - uuid: ${uuid}
 
   results:
     - SUCCESS:
